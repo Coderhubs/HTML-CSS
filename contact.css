@@ -1,0 +1,71 @@
+body {
+    background-color: #f0f0f0; 
+    margin: 0; 
+    padding: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #333; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(0, 0, 0); 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+    max-width: 400px; 
+    height: 500px;
+    margin: auto; 
+    font-size: 18px;
+}
+
+.form-contact > * {
+    margin: 0; /* Reset margin for all direct children */
+}
+
+label {
+    margin-top: 10px; 
+    color: #fff; 
+    margin-left: 0;
+}
+
+input[type="text"] {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+
+#button-order {
+    background-color: rgb(65, 71, 70);
+    color: aliceblue;
+    font-size: 14px;
+    border: none; 
+    width: 100%; 
+    padding: 10px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-top: 5px;
+}
+
+#button-order:hover {
+    background-color: green; 
+}
+
+h5 {
+    color: black; 
+    text-align: center; 
+    margin: 0; /* Set margin to 0 */
+}

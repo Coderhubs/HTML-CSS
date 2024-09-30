@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%); /* Background color for contrast */
+}
+
+.container {
+    display: flex; /* Use flexbox for the main container */
+    width: 90%; /* Set width for responsiveness */
+    max-width: 1200px; 
+    height: 500px; /* Fixed height for consistency */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Prevent content overflow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.about {
+    flex: 1; /* Allow text to take up remaining space */
+    font-size: 20px;
+    background-color: #282828; /* Darker background for contrast */
+    color: #ffffff;
+    padding: 20px; /* Add some padding */
+    margin-right: 20px; /* Space between text box and image */
+    border-radius: 10px; /* Match the container's rounded corners */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center text vertically */
+}
+
+.about h1 {
+    font-size: 24px; /* Larger title font size */
+    margin-bottom: 15px; /* Space below title */
+}
+
+.food {
+    flex: 0 0 40%; /* Fixed width for the image section */
+    display: flex; /* Center the image */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    background-color: #ffffff; /* White background for the image section */
+    border-radius: 10px; /* Match the container's rounded corners */
+    box-shadow: inset 0 0 10px rgba(2, 0, 0, 0.904); /* Subtle inset shadow */
+}
+
+.food img {
+    max-width: 100%; /* Make sure image is responsive */
+    max-height: 100%; /* Ensure image fits within height */
+    border-radius: 10px; /* Match rounded corners */
+}
